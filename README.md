@@ -1,2 +1,1 @@
-# CCSusingADCmethod
-Derivation of climate change scenarios using Advanced Delta Change method The package will include functions for: extraction from rasters drivation of parametrs of the delta change method transformation of the observed series into the climate change scenario visualization of results example data: observed precipitation and temperature for Klementinum (or your chosen location) simulated precipitation and temperature
+"# CCSusingADCmethod" 

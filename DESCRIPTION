@@ -1,0 +1,18 @@
+Package: CCSusingADCmethod
+Type: Package
+Title: Derivation of climate change scenarios using Advanced Delta Change method
+Version: 0.1.0
+Author: Shlapak Vladislav
+Maintainer: The package maintainer <xshlv001@studenti.czu.cz>
+Description: The package will include functions for: extraction from rasters drivation of parametrs of the delta change method transformation of the observed series into the climate change scenario visualization of results example data: observed precipitation and temperature for Klementinum (or your chosen location) simulated precipitation and temperature.    
+License: GPL-3
+Encoding: UTF-8
+Imports: data.table,
+         ncdf4,
+         raster,
+         terra,
+         stats
+LazyData: True
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 3.5)

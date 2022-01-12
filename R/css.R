@@ -1,0 +1,23 @@
+#' Output file with list with transformation parameters
+#'
+#'
+#'
+#' @format List with transformation parameters consist of 52 rows and 18 columns:
+#' \describe{
+#'   \item{BLOCK}{BLOCK value - shows number of separating parameter}
+#'   \item{q90_o}{Quantile of 90\% for observed data over control period}
+#'   \item{E}{Exceedance over q90 quantile 90\% for simulated data over future period or scenario period}
+#'   \item{mt_o}{Mean of temperature value for observed data over control period}
+#'   \item{mt_c}{Mean of temperature value for simulated data over control period}
+#'   \item{mt_s}{Mean of temperature value for simulated data over future period or scenario period}
+#'   \item{sd_r}{Standart deviation ratio of temperature value for simulated data over control period and future period or scenario period}
+#'   \item{DTM}{Date}
+#'   \item{pr_o}{Precipitation of observed data}
+#'   \item{tas_o}{Temperature of observed data}
+#'   \item{pr_o5}{Precipitation over 5 days for observed data}
+#'   \item{pr_trans}{Transformed precipitation}
+#'   \item{tas_trans}{Transformed temperature}
+#'   \item{b}{The coefficients a and b were derived from the 60\% quantile P60 and the 90\% quantile P90 of the 5-day precipitation sums and the future changes therein.}
+#'   \item{a}{The coefficients a and b were derived from the 60\% quantile P60 and the 90\% quantile P90 of the 5-day precipitation sums and the future changes therein.}
+#' }
+"ccs"
